@@ -1,0 +1,163 @@
+{
+	"textureSize": [64, 64],
+	"models": [
+		{
+			"part": "body",
+			"id": "body",
+			"invertAxis": "xy",
+			"translate": [0, -5, 0]
+		},
+		{
+			"part": "left_wing",
+			"id": "left_wing",
+			"invertAxis": "xy",
+			"translate": [1.5, -9, 3],
+			"mirrorTexture": "u",
+			"boxes": [
+				{"coordinates": [-11, 9, -4.5, 9, 0, 6], "textureOffset": [0, 18]}
+			],
+			"submodels": [
+				{
+					"id": "left_wing_rotated",
+					"invertAxis": "xy",
+					"translate": [0, 0, 0],
+					"submodels": [
+						{
+							"id": "left_wing_sub_1",
+							"invertAxis": "xy",
+							"translate": [0, 0, 0],
+							"mirrorTexture": "u",
+							"boxes": [
+								{"coordinates": [-11, 9, 2.5, 9, 0, 6], "textureOffset": [0, 18]}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"part": "right_wing",
+			"id": "right_wing",
+			"invertAxis": "xy",
+			"translate": [-1.5, -9, 3],
+			"boxes": [
+				{"coordinates": [2, 9, -4.5, 9, 0, 6], "textureOffset": [0, 18]}
+			],
+			"submodels": [
+				{
+					"id": "right_wing_rotated",
+					"invertAxis": "xy",
+					"translate": [0, 0, 0],
+					"boxes": [
+						{"coordinates": [2, 9, 2.5, 9, 0, 6], "textureOffset": [0, 18]}
+					]
+				}
+			]
+		},
+		{
+			"part": "front_legs",
+			"id": "front_legs",
+			"invertAxis": "xy",
+			"translate": [1.5, -2, 2],
+			"boxes": [
+				{"coordinates": [-1.5, 0, -2, 3, 2, 0], "textureOffset": [28, 1]}
+			]
+		},
+		{
+			"part": "middle_legs",
+			"id": "middle_legs",
+			"invertAxis": "xy",
+			"translate": [1.5, -2, 0],
+			"boxes": [
+				{"coordinates": [-2.5, 0, 0, 5, 2, 0], "textureOffset": [27, 3]}
+			]
+		},
+		{
+			"part": "back_legs",
+			"id": "back_legs",
+			"invertAxis": "xy",
+			"translate": [1.5, -2, -2],
+			"boxes": [
+				{"coordinates": [-2.5, 0, 2, 5, 2, 0], "textureOffset": [27, 5]}
+			]
+		},
+		{
+			"part": "left_antenna",
+			"id": "left_antenna",
+			"invertAxis": "xy",
+			"translate": [0, -7, 5],
+			"boxes": [
+				{"coordinates": [-2.5, 7, -8, 1, 2, 3], "textureOffset": [2, 0]}
+			]
+		},
+		{
+			"part": "right_antenna",
+			"id": "right_antenna",
+			"invertAxis": "xy",
+			"translate": [0, -7, 5],
+			"boxes": [
+				{"coordinates": [1.5, 7, -8, 1, 2, 3], "textureOffset": [2, 3]}
+			]
+		},
+		{
+			"part": "torso",
+			"id": "torso",
+			"invertAxis": "xy",
+			"translate": [0, -5, 0],
+			"boxes": [
+				{"coordinates": [-3.5, 2, -5, 7, 7, 10], "textureOffset": [0, 0]}
+			],
+			"submodels": [
+				{
+					"id": "torso_rotated",
+					"invertAxis": "xy",
+					"translate": [0, 1, 0],
+					"rotate": [35, 0, 0],
+					"boxes": [
+						{"coordinates": [-3.5, 2.25, -0.75, 7, 7, 10], "textureOffset": [0, 0]},
+						{"coordinates": [-4.5, 2.25, -0.75, 1, 7, 10], "textureOffset": [6, 0]},
+						{"coordinates": [3.5, 2.25, -0.75, 1, 7, 10], "textureOffset": [0, 0]},
+						{"coordinates": [3.5, 3.25, -0.7501, 1, 3, 1], "textureOffset": [19, 13]},
+						{"coordinates": [-4.5, 3.25, -0.7501, 1, 3, 1], "textureOffset": [19, 13]},
+						{"coordinates": [3.501, 3.25, -0.75, 1, 3, 1], "textureOffset": [19, 13]},
+						{"coordinates": [-4.501, 3.25, -0.75, 1, 3, 1], "textureOffset": [14, 6]}
+					],
+					"submodels": [
+						{
+							"id": "front_legs_rotated",
+							"invertAxis": "xy",
+							"translate": [0, 0, 0],
+							"boxes": [
+								{"coordinates": [-1.5, 0.5, 3.5, 3, 2, 0], "textureOffset": [28, 1]}
+							]
+						},
+						{
+							"id": "middle_legs_rotated",
+							"invertAxis": "xy",
+							"translate": [0, 0, 0],
+							"boxes": [
+								{"coordinates": [-2.5, 0.25, 5.5, 5, 2, 0], "textureOffset": [27, 3]}
+							]
+						},
+						{
+							"id": "back_legs_rotated",
+							"invertAxis": "xy",
+							"translate": [0, 0, 0],
+							"boxes": [
+								{"coordinates": [-2.5, 0.5, 7.5, 5, 2, 0], "textureOffset": [27, 5]}
+							]
+						},
+						{
+							"id": "stinger",
+							"invertAxis": "xy",
+							"translate": [0, 2.75, 5],
+							"boxes": [
+								{"coordinates": [0, 2.08185, 3.98236, 0, 1, 2], "textureOffset": [24, 7]}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}
