@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/beetroots_stage",
+  "textures": {
+    "beetroots": "minecraft:block/beetroots_stage1"
+  }
+}
